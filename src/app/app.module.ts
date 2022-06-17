@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MainPageComponent } from './Components/main-page/main-page.component';
 import { BannerTitleComponent } from './Components/banner-title/banner-title.component';
 import { BannerIntroComponent } from './Components/banner-intro/banner-intro.component';
+import { ArchitectureComponent } from './Components/architecture/architecture.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
     BannerTitleComponent,
-    BannerIntroComponent
+    BannerIntroComponent,
+    ArchitectureComponent
   ],
   imports: [
     BrowserModule,
