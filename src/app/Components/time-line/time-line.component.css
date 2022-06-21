@@ -1,0 +1,29 @@
+.time-line-banner{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 2%;
+}
+
+.time-line-iten{
+    background-color: blanchedalmond;
+    flex-direction: column;
+    width: 25%;
+    height: 4px;
+    text-align: center;
+
+}
+
+.time-line-iten span{
+    color: rgb(102, 102, 102);
+}
+
+.time-line-conteudo{
+    padding: 2%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
