@@ -1,0 +1,19 @@
+.card-padding{
+    margin:2%;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.imagem-card{
+    padding: 5%;
+}
+
+.imagem-card img{
+    border-radius: 5px;
+}

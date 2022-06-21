@@ -1,0 +1,11 @@
+<div class="card-list">
+    <div *ngFor="let item of ListData" class="card card-padding" style="width: 18rem;">
+        <div class="imagem-card">
+            <img class="card-img-top" src="{{item.urlImg}}" alt="Card image cap">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{item.titulo}}</h5>
+            <p class="card-text">{{item.descricao}}</p>
+        </div>
+    </div>
+</div>
