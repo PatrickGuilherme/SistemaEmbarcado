@@ -7,6 +7,10 @@ import { MainPageComponent } from './Components/main-page/main-page.component';
 import { BannerTitleComponent } from './Components/banner-title/banner-title.component';
 import { BannerIntroComponent } from './Components/banner-intro/banner-intro.component';
 import { ArchitectureComponent } from './Components/architecture/architecture.component';
+import { TimeLineComponent } from './Components/time-line/time-line.component';
+import { FeaturesComponent } from './Components/features/features.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { ModalInfoComponent } from './Components/modal-info/modal-info.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { ArchitectureComponent } from './Components/architecture/architecture.co
     MainPageComponent,
     BannerTitleComponent,
     BannerIntroComponent,
-    ArchitectureComponent
+    ArchitectureComponent,
+    TimeLineComponent,
+    FeaturesComponent,
+    ModalInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
