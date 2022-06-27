@@ -11,6 +11,7 @@ import { TimeLineComponent } from './Components/time-line/time-line.component';
 import { FeaturesComponent } from './Components/features/features.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ModalInfoComponent } from './Components/modal-info/modal-info.component';
+import { MicrocontrollerComponent } from './Components/microcontroller/microcontroller.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +22,13 @@ import { ModalInfoComponent } from './Components/modal-info/modal-info.component
     ArchitectureComponent,
     TimeLineComponent,
     FeaturesComponent,
-    ModalInfoComponent
+    ModalInfoComponent,
+    MicrocontrollerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
