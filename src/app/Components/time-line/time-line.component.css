@@ -1,13 +1,12 @@
 .time-line-banner{
     width: 100%;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     height: 2%;
+    background-color: rgb(255, 255, 255);
 }
 
 .time-line-iten{
-    background-color: blanchedalmond;
     flex-direction: column;
     width: 25%;
     height: 4px;

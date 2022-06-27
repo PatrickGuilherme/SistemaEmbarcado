@@ -1,34 +1,48 @@
 <div class="time-line-banner">
     <div class="time-line-iten" style="background-color: rgb(250, 164, 74);">
-        <div class="time-line-conteudo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-            </svg>
-            <span><strong>1961</strong></span>
-        </div>
+        <a (click)="OpenModalAno(1961)" style="cursor:pointer">
+            <div class="time-line-conteudo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <span><strong>1961</strong></span>
+            </div>
+        </a>
     </div>
     <div class="time-line-iten" style="background-color: rgb(247, 92, 103);">
-        <div class="time-line-conteudo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-            </svg>
-            <span><strong>1970</strong></span>
-        </div>  
+        <a (click)="OpenModalAno(1970)" style="cursor:pointer">
+            <div class="time-line-conteudo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <span><strong>1970</strong></span>
+            </div>  
+        </a>    
     </div>
     <div class="time-line-iten" style="background-color: rgb(71, 165, 217);">
-        <div class="time-line-conteudo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-            </svg>
-            <span><strong>1980</strong></span>
-        </div>
+        <a (click)="OpenModalAno(1980)" style="cursor:pointer">
+            <div class="time-line-conteudo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <span><strong>1980</strong></span>
+            </div>
+        </a>
     </div>
     <div class="time-line-iten" style="background-color: rgb(73, 99, 122);">
-        <div class="time-line-conteudo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-            </svg>
-            <span><strong>1990</strong></span>
-        </div>
+        <a (click)="OpenModalAno(1990)" style="cursor:pointer">
+            <div class="time-line-conteudo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <span><strong>1990</strong></span>
+            </div>
+        </a>
     </div>
 </div>
+
+<app-modal
+    [ModalText]="anoSelect"
+    [switchModal]="ModalStatus"
+>
+</app-modal>
