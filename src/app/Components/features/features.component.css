@@ -1,8 +1,9 @@
-.card-padding{
+.card-padding {
     margin:2%;
+    width: 16%;
 }
 
-.card-list{
+.card-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,10 +11,43 @@
     background-color: rgb(247, 247, 247);
 }
 
-.imagem-card{
+.imagem-card {
     padding: 5%;
 }
 
-.imagem-card img{
+.imagem-card img {
     border-radius: 5px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-card-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card-features h1{
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 736px) {
+    .card-item{
+        display: flex;
+    }
+
+    .card-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-padding {
+        width: 45%;
+    }
 }
