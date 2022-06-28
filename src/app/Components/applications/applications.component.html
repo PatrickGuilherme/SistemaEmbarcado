@@ -1,0 +1,13 @@
+<carousel [pauseOnFocus]="true">
+  <slide *ngFor="let item of listaAplicacao" style="width: 100%;">
+    <img src={{item.urlImg}} alt="First slide" style="display: block; width: 100%;">
+
+    <div class="carousel-caption d-md-block">
+      <div class="d-none d-md-block">
+        <h3>{{item.titulo}}</h3>
+      </div>
+      <p>{{item.descricao}}</p>
+    </div>
+
+  </slide>
+</carousel>
