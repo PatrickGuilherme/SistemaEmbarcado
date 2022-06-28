@@ -3,7 +3,6 @@
     width: 100%;
     height: 40%;
     padding: 3%;
-    background-color: rgb(255, 255, 255);
 }
 
 .banner-intro-itens{
@@ -15,12 +14,11 @@
 
 .banner-intro-title{
     width: 50%;
+    padding: 1%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     text-align: justify;
-    background-color: rgb(25, 54, 54);
-
 }
 
 .banner-intro-title h1{
@@ -33,16 +31,27 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    background-color: aqua;
 }
 
 .img-placa{
     width: 300px;
 }
 
+.link-video{
+    padding: 1%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.link-video a{
+    text-decoration: none;
+    color: crimson;
+    
+}
+
 @media screen and (max-width: 736px) {
     .banner-intro{
-        margin-top: 15%;
+        margin-top: 7%;
         width: 100%;
         height: 40%;
         padding: 3%;
