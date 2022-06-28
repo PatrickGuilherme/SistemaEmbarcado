@@ -1,3 +1,28 @@
 .img-placa{
-    width: 90%;
+    width: 500px;
+}
+
+.microcontrolador{
+    position: flex;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.matriz{
+    background: url("../../../assets/baseMC.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mc-main{
+    width: 600px;
+    height: 100%;
+    background-color: brown;
+    
+}
+
+.col-sm{
+    background-color: rgba(255, 0, 0, 0.432);
+    color: white;
 }
