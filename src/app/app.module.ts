@@ -14,6 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { ApplicationsComponent } from './Components/applications/applications.component';
 import { BannerMercadoComponent } from './Components/banner-mercado/banner-mercado.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { RepeatDirective } from './Directive/For';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { BannerMercadoComponent } from './Components/banner-mercado/banner-merca
     ModalInfoComponent,
     MicrocontrollerComponent,
     ApplicationsComponent,
-    BannerMercadoComponent
+    BannerMercadoComponent,
+    FooterComponent,
+    RepeatDirective
   ],
   imports: [
     BrowserModule,

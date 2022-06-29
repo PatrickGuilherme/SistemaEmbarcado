@@ -1,28 +1,43 @@
-.img-placa{
-    width: 500px;
+.oscilador-interno {
+    top: 32px;
+    left: 11%; 
+}
+.oscilador-interno:active {
+    top: 34px;
 }
 
-.microcontrolador{
-    position: flex;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
+.oscilador-externo {
+    top: 95px;
+    left: 70px; 
+}
+.oscilador-externo:active {
+    top: 97px;
 }
 
-.matriz{
-    background: url("../../../assets/baseMC.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+
+
+
+.button-mc{
+    cursor: pointer;
+    background-color: green;
+    position: absolute;
+    box-shadow:0 5px 0 #003f00;
+    text-transform: uppercase;
+    border: none;
+    font-size: small;
+    cursor: pointer;
+    padding: 1px;
+    color: rgb(255, 255, 255);
 }
 
-.mc-main{
-    width: 600px;
-    height: 100%;
-    background-color: brown;
-    
+.button-mc:hover {
+    background:#006000;
+
 }
 
-.col-sm{
-    background-color: rgba(255, 0, 0, 0.432);
-    color: white;
+.button-mc:active{
+    box-shadow:none;
 }
+
+
+

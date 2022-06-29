@@ -1,0 +1,29 @@
+.content-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.content-box p{
+    text-align: center;
+    color: white;
+}
+
+.slide{
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+    .content-box h3{
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (max-width: 430px) {
+    .content-box h3{
+        font-size: 0.9rem;
+    } 
+}
